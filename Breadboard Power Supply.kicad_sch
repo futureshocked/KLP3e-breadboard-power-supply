@@ -6,8 +6,8 @@
 
   (title_block
     (title "Learning KiCad with a simple project")
-    (date "2021-07-12")
-    (rev "1")
+    (date "2021-12-08")
+    (rev "2")
     (company "Tech Explorations")
   )
 
@@ -1098,17 +1098,9 @@
     (uuid ee0e0598-81e6-41ee-858e-2481d90f629d)
   )
 
-  (label "PWR_OUT_BOT" (at 189.23 61.468 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 1dabe15b-9579-4c53-8648-151670444f2f)
-  )
   (label "5V" (at 195.834 52.324 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6622aee1-5af8-4517-9a21-ada28f6f86ca)
-  )
-  (label "PWR_OUT_TOP" (at 185.928 110.236 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 6998024a-c7f3-4b4c-aee2-b3186e7c6310)
   )
   (label "5V" (at 193.802 101.346 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1121,6 +1113,10 @@
   (label "3.3v" (at 121.666 101.346 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9fcbc175-f5af-4247-a7db-d2b82cbebec1)
+  )
+  (label "PWR_OUT_BOT" (at 189.23 60.452 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid a37296d2-a9af-4cbb-bc74-f8784f62407a)
   )
   (label "12V" (at 88.9 46.736 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1141,6 +1137,10 @@
   (label "3.3v" (at 195.834 57.404 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f86422ce-d72c-4e76-9cb1-fd26ca8e8db9)
+  )
+  (label "PWR_OUT_TOP" (at 185.928 112.014 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid faac20b9-b485-48a5-b3cc-a28f27addd22)
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 75.184 66.294 180) (unit 1)
@@ -1224,7 +1224,7 @@
     (property "Reference" "R1" (id 0) (at 55.88 108.9659 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "330" (id 1) (at 55.88 111.5059 0)
+    (property "Value" "560" (id 1) (at 55.88 111.5059 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (id 2) (at 54.61 110.236 90)
@@ -1633,7 +1633,7 @@
       (reference "J7") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/444835ed-df3b-4c9b-8dd4-e0c752098dee"
-      (reference "R1") (unit 1) (value "330") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
+      (reference "R1") (unit 1) (value "560") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/6244ec7e-f6fa-4582-8639-1449847d9d8f"
       (reference "R2") (unit 1) (value "330") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
